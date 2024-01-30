@@ -1,0 +1,17 @@
+{
+    "name": "kbourguignon/php-library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kbourguignon\\PhpLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kevinBourguignon",
+            "email": "92568412+kevinBourguignon@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
