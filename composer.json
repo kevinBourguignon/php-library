@@ -13,5 +13,6 @@
             "email": "92568412+kevinBourguignon@users.noreply.github.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }

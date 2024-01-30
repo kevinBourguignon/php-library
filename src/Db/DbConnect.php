@@ -1,6 +1,6 @@
 <?php 
 
-namespace nomDutilisateurGithub\Db;
+namespace kbourguignon\PhpLibrary\Db;
 
 use Exception;
 use PDO; 
@@ -27,7 +27,8 @@ class DbConnect
     public static function getInstance(): PDO
     {
         if(self::$instance === null) {
-            self::$instance = new PDO('mysql:host='.self::$config['db_host'].';port='.self::$config['db_port'].';dbname='.self::$config['db_name'].';charset=utf8',
+            self::$instance = new PDO
+            ('mysql:host='.self::$config['db_host'].';port='.self::$config['db_port'].';dbname='.self::$config['db_name'].';charset=utf8',
             self::$config['db_user'].
             self::$config['db_password'].[
                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
