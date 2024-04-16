@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    left: 25px;
+    
+}
+nav li {
+    background-color: orange;
+}
+
+div ul{
+    display: flex;
+    justify-content: center;
+}
+
+div ul li  {
+   background-image: url(./img/1693216191739.jpg);
+   min-height: 500px;
+   height: auto;
+   position: relative;
+   width: 150px;
+   
+}
+
